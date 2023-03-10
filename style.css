@@ -127,6 +127,7 @@ nav{
   grid-area: alias-innergrid;
   background-color: var(--Outer-grid-main-area);
 }
+
 @media (min-width:576px){
   nav{
     display: block !important;
@@ -136,8 +137,8 @@ nav{
     "alias-header alias-header"
     "alias-nav alias-innergrid";
   }
-  .fa-bars{
-    display: none;
+  .fa-solid  {
+    display: none !important;
   }
 }
 @media (min-width:992px){
